@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #B37584;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    width: 80%;
+    max-width: 1200px;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: #CFB0B6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #232531;
+}
+
+note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+  }
+  
+  note-form input,
+  note-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  note-form button {
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  note-list {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  note-list .note {
+    background: #fff;
+    color: #222;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
