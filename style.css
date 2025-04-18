@@ -18,7 +18,7 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     width: 80%;
     max-width: 1200px;
@@ -27,16 +27,16 @@ main {
     border-radius: 1rem;
 }
 
-.container {
+/* .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     background-color: #CFB0B6;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 350px;
-}
+} */
 
 h1 {
     text-align: center;
