@@ -1,4 +1,5 @@
 import { notesData } from './notes.js';
+import "./components/note-header.js"; 
 import "./components/note-list.js";
 import "./components/note-form.js";
 

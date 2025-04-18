@@ -6,7 +6,7 @@ class NoteHeader extends HTMLElement {
       this.shadowRoot.innerHTML = `
         <style>
           header {
-            background-color: #ff6666;
+            background-color: #B37584;
             color: white;
             padding: 1rem;
             text-align: center;
@@ -14,7 +14,7 @@ class NoteHeader extends HTMLElement {
           }
         </style>
         <header>
-          Notes Keren 📝
+          To-DO 📝
         </header>
       `;
     }
